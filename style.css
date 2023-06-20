@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: antiquewhite;
+}
+
+img{
+  max-width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 5em 0;
+}
+
+.row {
+  display: flex;
+
+  /* default is fle-direction row */
+  flex-direction: row;
+
+  gap: 3rem;
+  text-align: center;
+}
+.col {
+  /* flex children */
+  width: 100%;
+}
+
+.heading-color {
+  color: #87629a;
+}
+
+.hero-container {
+  background: #23424a;
+  color: white;
+}
+
+.heading {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero__text {
+  width: 62%;
+}
+.hero__text h1 {
+  margin-top: 0;
+}
+.text {
+  font-size: 21px;
+  line-height: 32px;
+  padding-bottom: 10vh;
+}
+
+.btn {
+  font-size: 21px;
+  font-weight: bold;
+  color: #23424a;
+  text-transform: uppercase;
+  background: #38cfd9;
+  padding: 0.75em 1em;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.container h2 {
+  font-size: 36px;
+}
+/*  footer code */
+.footer {
+  background: #136c72;
+  color: white;
+}
+
+/* code for the flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__img {
+  width: 32%;
+  align-self: flex-start;
+}
