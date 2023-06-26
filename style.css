@@ -12,6 +12,10 @@ body {
 img{
   max-width: 100%;
 }
+
+header{
+  background: #136c72;
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -56,6 +60,7 @@ img{
 .text {
   font-size: 18px;
   line-height: 32px;
+  margin-bottom: 5vh;
 }
 
 .btn {
@@ -103,4 +108,53 @@ img{
 }
 .col h2{
   margin: 0;
+}
+
+/*  navigation or navbar */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.nav__list{
+margin: 0;
+list-style: none;
+padding: 0;
+display: flex; 
+}
+
+.nav__list--primary{
+  margin: 0 auto;
+}
+ /*  finally fone0 */
+.nav_link{
+  
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-container{
+  max-width: 950px;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+.nav__item + .nav__item{
+  margin-left: 2rem;
+}
+.nav__link--button{
+  background-color: aliceblue;
+  padding: 0.25rem 1rem;
+  border-radius: 10rem;
+  color: #136c72;
+}
+.nav_link:hover{
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
 }
